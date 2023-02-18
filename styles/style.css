@@ -1,0 +1,12 @@
+@import url("./header.css");
+
+:root {
+  --cor-de-fundo: #ebecee;
+  --branco: #ffffff;
+
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+}
