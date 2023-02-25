@@ -36,22 +36,30 @@
   margin-bottom: 0.8rem;
 }
 
+.card__descricao2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+  gap: 0.8rem;
+}
+
 .descricao {
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
 }
 
 .descricao__titulo {
   font-size: 1.6rem;
   font-weight: 700;
   color: var(--laranja);
+  margin-top: 0.4rem;
 }
 
 .descricao__titulo-livro {
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--azul-titulo);
+  margin: 0.8rem 0;
 }
 
 .descricao__texto {
