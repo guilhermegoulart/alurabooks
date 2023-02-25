@@ -59,10 +59,11 @@
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
-    <section class="carrossel">
+
+    <main class="carrossel">
         <h2 class="carrossel__titulo">Últimos lançamentos</h2>
 
-        <div class="swiper">
+        <section class="swiper">
             <div class="swiper-pagination"></div>
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="./assets/ApacheKafka.png"
@@ -87,8 +88,28 @@
 
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-        </div>
-    </section>
+        </section>
+
+        <section class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <img src="./assets/Angular.png" alt="" class="descricao__imagem">
+            </div>
+
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__items"><img src="./assets/Favoritos.svg" alt="favoritar livro"></li>
+                    <li class="botoes__items"><img src="./assets/Compras.svg" alt="adicionar ao carrinho de compras">
+                    </li>
+                </ul>
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </section>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="swiper.js"></script>
