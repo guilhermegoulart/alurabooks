@@ -58,7 +58,7 @@
 .descricao__titulo-livro {
   font-size: 1.8rem;
   font-weight: 700;
-  color: var(--azul-titulo);
+  color: var(--azul);
   margin: 0.8rem 0;
 }
 
