@@ -32,3 +32,21 @@
   color: var(--branco);
   background: url("../assets/Pesquisa.svg") no-repeat;
 }
+
+@media screen and (min-width: 1024px) {
+  .banner__titulo {
+    font-size: 3.6rem;
+  }
+
+  .banner__texto {
+    font-weight: 500;
+  }
+
+  .banner__pesquisa {
+    width: 50vw;
+  }
+
+  .banner__pesquisa::placeholder {
+    background-position: 8.4rem;
+  }
+}

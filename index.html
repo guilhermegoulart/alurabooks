@@ -46,7 +46,28 @@
             </div>
 
             <ul class="opcoes">
-                <li class="opcoes__item">Categorias</li>
+                <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+                <label for="opcoes-menu">
+                    <li class="opcoes__item">Categorias</li>
+                </label>
+
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Programação</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">front-end</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Infraestrutura</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Business</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Desing & UX</a>
+                    </li>
+                </ul>
                 <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
                 <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
             </ul>
@@ -182,6 +203,9 @@
                     <a href="#" class="topicos__link">Android</a>
                 </li>
                 <li class="topicos__item">
+                    <a href="#" class="topicos__link">OO</a>
+                </li>
+                <li class="topicos__item">
                     <a href="#" class="topicos__link">Marketing Digital</a>
                 </li>
                 <li class="topicos__item">
@@ -197,17 +221,16 @@
                     <a href="#" class="topicos__link">Python</a>
                 </li>
                 <li class="topicos__item">
-                    <a href="#" class="topicos__link">OO</a>
-                </li>
-                <li class="topicos__item">
                     <a href="#" class="topicos__link">Java</a>
                 </li>
             </ul>
         </section>
 
         <section class="contato">
-            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            <div class="contato__descricao">
+                <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+                <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            </div>
             <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
         </section>
     </main>
