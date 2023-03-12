@@ -7,5 +7,41 @@ hr {
   background-color: var(--branco);
 }
 
+.lista-rodape {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
+  .rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 5.6rem 6.1rem;
+  }
+
+  .rodape__titulo {
+    font-size: 2.4rem;
+    font-family: var(--fonte-principal);
+  }
+
+  .lista-rodape {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    gap: 0.8rem;
+  }
+
+  .lista-rodape__titulo {
+    color: var(--cinza-titulo);
+  }
+
+  .lista-rodape__item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .lista-rodape__link {
+    text-decoration: none;
+    color: var(--cinza);
+  }
 }
